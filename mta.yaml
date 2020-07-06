@@ -1,9 +1,9 @@
 _schema-version: 2.1.0
-ID: com.sap.piper.node.hello.world
+ID: com.devops.test
 version: 1.0.0
 description: A Hello World sample application
 provider: SAP Sample generator
 modules:
-  - name: piper.node.hello.world
+  - name: com.devops.test
     type: nodejs
     path: .
