@@ -1,7 +1,7 @@
 @Library('piper-lib-os') _
-
 node() {
-  stage('buildMta') {
-    mtaBuild script: this
-  }
+    stage('prepare') {
+        checkout scm
+        setupCommonPipelineEnvironment script:this
+    }
 }
