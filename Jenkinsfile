@@ -5,4 +5,3 @@ node() {
     mtaBuild script: this
   }
 }
-@Library('piper-lib-os') _
