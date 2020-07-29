@@ -9,6 +9,10 @@ node() {
     }
     
     stage('uploadToTransportRequest') {
-        transportRequestUploadFile ( script:this, transportRequestUploadFile: 'WEAK900370', changeDocumentId: '46989' )
+        transportRequestUploadFile(
+            script: this,
+            changeDocumentId: '46989',   // typically provided via git commit history
+            transportRequestId: 'WEAK900370' // typically provided via git commit history
+        )
     }
 }
