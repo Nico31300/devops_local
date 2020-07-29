@@ -12,8 +12,8 @@ steps:
   transportRequestUploadFile:
     changeDocumentId: '46989',
     applicationId: 'HCP',
-    abapPackage:'ZCOMMON', 
-    applicationDescription:'Test devops',
-    applicationId:'Z_DEVOPS',
-    applicationName:'Z_DEVOPS',
+    abapPackage: 'ZCOMMON', 
+    applicationDescription: 'Test devops',
+    applicationId: 'Z_DEVOPS',
+    applicationName: 'Z_DEVOPS',
     transportRequestId: 'WEAK900370'
