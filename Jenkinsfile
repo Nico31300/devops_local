@@ -9,7 +9,6 @@ node() {
     }
     
     stage('uploadToTransportRequest') {
-        transportRequestCreate script: this
         transportRequestUploadFile script:this
     }
 }
