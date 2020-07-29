@@ -9,6 +9,6 @@ node() {
     }
     
     stage('uploadToTransportRequest') {
-        transportRequestUploadFile script:this
+        transportRequestUploadFile ( script:this, transportRequestUploadFile: 'WEAK900370', changeDocumentId: '46989' )
     }
 }
