@@ -1,7 +1,7 @@
 #Steps Specific Configuration
 general:
   changeManagement:
-    endpoint: 'https://zsmswde0.eu.airbus.corp/sap/opu/odata/sap/AI_CRM_GW_CM_CI_SRV/'
+    endpoint: 'http://zsmvie0.eu.airbus.corp:8086/sap/opu/odata/sap/AI_CRM_GW_CM_CI_SRV/'
     credentialsId: 'CM'
     type: 'SOLMAN'
 steps:
