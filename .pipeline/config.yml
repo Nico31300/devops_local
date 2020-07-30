@@ -4,6 +4,7 @@ general:
     endpoint: 'http://zsmvie0.eu.airbus.corp:8086/sap/opu/odata/sap/AI_CRM_GW_CM_CI_SRV/'
     credentialsId: 'CM'
     type: 'SOLMAN'
+    clientOpt: '-Dorg.slf4j.simpleLogger.defaultLogLevel=trace -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.showdatetime=true -Dorg.apache.commons.logging.simplelog.log.org.apache.http=DEBUG -Dorg.apache.commons.logging.simplelog.log.org.apache.http.wire=DEBUG'
 steps:
   mtaBuild:
     buildTarget: 'NEO'
