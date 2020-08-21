@@ -3,7 +3,7 @@ module.exports = function (config) {
     frameworks: ['qunit'],
     plugins: ['karma-qunit'],
     files: [
-      './devops/webapp/test/testsuite.qunit.js'
+      './webapp/test/testsuite.qunit.js'
     ]
   })
 }
