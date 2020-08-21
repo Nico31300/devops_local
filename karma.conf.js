@@ -23,9 +23,8 @@ module.exports = function (config) {
             config: webdriverConfig,
             browserName: 'chrome'
         }
-    }
-    
-    /*
+    },
+
     reporters: ['junit'],
     
     // start these browsers
@@ -38,7 +37,7 @@ module.exports = function (config) {
     junitReporter: {
         outputFile: 'test-results-karma.xml',
         suite: ''
-    }*/
+    }
     
   })
 }
