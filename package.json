@@ -5,7 +5,8 @@
 	"devDependencies": {
 		"karma": "^5.1.1",
 		"karma-qunit" : "^4.1.1",
-		"qunit" : "^2.11.0"
+		"qunit" : "^2.11.0",
+		"karma-cli" : "^2.11.0"
 	},
 	"scripts": {
 		"karma": "karma start"
