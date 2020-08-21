@@ -5,6 +5,6 @@
 	"devDependencies": {
 	},
 	"scripts": {
-		"karma": "npm -v && 'ls -la /usr/local/lib/node_modules'"
+		"karma": "npm -v"
 	}
 }
