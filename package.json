@@ -9,7 +9,8 @@
 		"karma-cli" : "^2.0.0",
 		"karma-junit-reporter" : "latest",
 		"karma-chrome-launcher" : "latest",
-		"karma-webdriver-launcher" : "latest"
+		"karma-webdriver-launcher" : "latest",
+		"karma-ui5" : "latest"
 	},
 	"scripts": {
 		"karma": "karma start"
