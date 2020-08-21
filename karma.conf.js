@@ -21,7 +21,7 @@ module.exports = function (config) {
         'chromeSel': {
             base: 'WebDriver',
             config: webdriverConfig,
-            browserName: 'Chrome'
+            browserName: 'chrome'
         }
     },
     
