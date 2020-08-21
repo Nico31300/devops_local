@@ -10,7 +10,7 @@ module.exports = function (config) {
     plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher'],
     
     ui5: {
-      url: "https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+      url: "https://sapui5.hana.ondemand.com"
     },
     
     files: [
