@@ -12,10 +12,10 @@ module.exports = function (config) {
     ui5: {
       url: "https://sapui5.hana.ondemand.com"
     },
-    
+    /*
     files: [
       'webapp/test/unit/AllTests.js'
-    ],
+    ],*/
     
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
