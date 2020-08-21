@@ -7,7 +7,9 @@
 		"karma-qunit" : "^4.1.1",
 		"qunit" : "^2.11.0",
 		"karma-cli" : "^2.0.0",
-		"karma-junit-reporter" : "latest"
+		"karma-junit-reporter" : "latest",
+		"karma-chrome-launcher" : "latest",
+		"karma-webdriver-launcher" : "latest"
 	},
 	"scripts": {
 		"karma": "karma start"
