@@ -6,8 +6,12 @@ module.exports = function (config) {
   }
   
   config.set({
-    frameworks: ['qunit'],
+    frameworks: ['qunit','ui5'],
     plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher'],
+    
+    ui5: {
+      url: "https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+    },
     
     files: [
       'webapp/test/unit/AllTests.js'
