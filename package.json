@@ -5,6 +5,7 @@
 	"devDependencies": {
 	},
 	"scripts": {
+		"npm": "karma install",
 		"karma": "karma start"
 	}
 }
