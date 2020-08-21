@@ -5,6 +5,6 @@
 	"devDependencies": {
 	},
 	"scripts": {
-		"karma": "npm -v && npm -g list"
+		"karma": "npm -v && npm -g install karma-cli"
 	}
 }
