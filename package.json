@@ -5,9 +5,5 @@
 	"devDependencies": {
 	},
 	"scripts": {
-		"karma": "karma start",
-		"clean": "rm -rf node_modules",
-		"reinstall": "npm run clean && npm install",
-		"opa": "npm run karma"
 	}
 }
