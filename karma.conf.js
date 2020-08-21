@@ -15,10 +15,7 @@ module.exports = function (config) {
     
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
-    logLevel: config.LOG_DEBUG
-    
-    /*
-    reporters: ['junit'],
+    logLevel: config.LOG_DEBUG,
     
     customLaunchers: {
         'chromeSel': {
@@ -26,7 +23,10 @@ module.exports = function (config) {
             config: webdriverConfig,
             browserName: 'chrome'
         }
-    },
+    }
+    
+    /*
+    reporters: ['junit'],
     
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
