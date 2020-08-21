@@ -4,6 +4,13 @@ node() {
         checkout scm
         setupCommonPipelineEnvironment script:this
     }
+    
+    stage('Test')   {
+	  karmaExecuteTests script: this, modules: ['./nodejs'],
+	  installCommand: "npm config set @sap:registry https://npm.sap.com && npm install --quiet", 
+	  runCommand: 'npm test'
+    }
+    
     stage('build') {
         mtaBuild script: this
     }
