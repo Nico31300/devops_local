@@ -5,6 +5,6 @@
 	"devDependencies": {
 	},
 	"scripts": {
-		"karma": "npm -v"
+		"karma": "pwd && npm -v"
 	}
 }
