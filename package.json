@@ -3,6 +3,7 @@
 	"version": "2.0.0",
 	"description": "Project description",
 	"devDependencies": {
+		"karma": "^0.13.0"
 	},
 	"scripts": {
 		"karma": "karma start"
