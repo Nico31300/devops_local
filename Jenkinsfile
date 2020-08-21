@@ -6,7 +6,9 @@ node() {
     }
     
     stage('Test')   {
-	  karmaExecuteTests script: this, verbose:true
+	  karmaExecuteTests script: this, verbose:true,
+		            installCommand: npm install --quiet --no-audit,
+	                    runCommand: npm test
     }
     
     stage('build') {
