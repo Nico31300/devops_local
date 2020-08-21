@@ -24,6 +24,10 @@ module.exports = function (config) {
             browserName: 'chrome'
         }
     },
+    
+    hostname: 'karma',
+    port: 9876,
+    
 
     reporters: ['junit'],
     
