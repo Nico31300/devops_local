@@ -10,7 +10,7 @@ module.exports = function (config) {
     plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher'],
     
     files: [
-      './webapp/test/testsuite.qunit2.html'
+      './webapp/test/testsuite.qunit.html'
     ],
     
     // level of logging
