@@ -6,7 +6,7 @@ node() {
     }
     
     stage('Test')   {
-	  karmaExecuteTests script: this, modules: ['./test'],
+	  karmaExecuteTests script: this, verbose:true, modules: ['../test'],
 	  installCommand: "npm config set @sap:registry https://npm.sap.com && npm install --quiet", 
 	  runCommand: 'npm test'
     }
