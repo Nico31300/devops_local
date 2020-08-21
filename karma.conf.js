@@ -13,6 +13,10 @@ module.exports = function (config) {
       './webapp/test/testsuite.qunit.js'
     ],
     
+    // level of logging
+    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    logLevel: config.LOG_DEBUG,
+    
     reporters: ['junit'],
     
     customLaunchers: {
