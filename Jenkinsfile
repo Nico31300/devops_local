@@ -7,8 +7,9 @@ node() {
     
     stage('Test')   {
 	  karmaExecuteTests script: this, verbose:true,
-		            installCommand: npm install --quiet --no-audit,
-	                    runCommand: npm test
+                       	    installCommand: "npm config set @sap:registry https://npm.sap.com && npm install --quiet",
+		            runCommand: 'npm test'
+	    
     }
     
     stage('build') {
