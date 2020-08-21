@@ -3,7 +3,8 @@
 	"version": "2.0.0",
 	"description": "Project description",
 	"devDependencies": {
-		"karma": "^0.13.0"
+		"karma": "^5.1.1",
+		"karma-qunit" : "^4.1.1"
 	},
 	"scripts": {
 		"karma": "karma start"
