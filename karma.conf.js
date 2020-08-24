@@ -7,7 +7,7 @@ module.exports = function (config) {
   
   config.set({
     frameworks: ['ui5'],
-    plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher','karma-ui5'],
+    //plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher','karma-ui5'],
     
     ui5: {
       url: "https://sapui5.hana.ondemand.com"
