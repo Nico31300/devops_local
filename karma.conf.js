@@ -4,7 +4,7 @@ module.exports = function (config) {
     frameworks: ['ui5'],
     
     ui5: {
-      url: "https://sapui5.hana.ondemand.com"
+      url: "https://openui5.hana.ondemand.com"
     },
         
     // level of logging
