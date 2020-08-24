@@ -2,13 +2,12 @@ module.exports = function (config) {
   
   config.set({
     frameworks: ['ui5'],
+    plugins: ['karma-*', 'qunit'],
     
+    //UI5 framework
     ui5: {
       url: "https://openui5.hana.ondemand.com"
     },
-    
-    plugins: [ 'karma-*', 'qunit' ],
-        
     // level of logging
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_DEBUG,
