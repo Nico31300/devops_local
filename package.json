@@ -3,17 +3,11 @@
 	"version": "2.0.0",
 	"description": "Project description",
 	"devDependencies": {
-		"karma": "^5.1.1",
-		"karma-qunit" : "^4.1.1",
-		"qunit" : "^2.11.0",
-		"karma-cli" : "^2.0.0",
-		"karma-junit-reporter" : "latest",
 		"karma-chrome-launcher" : "latest",
 		"karma-webdriver-launcher" : "latest",
 		"karma-ui5" : "latest",
 		"@ui5/cli": "latest",
-		"eslint": "latest",
-		"karma-coverage": "latest"
+		"karma": "^5.1.1"
 	},
 	"scripts": {
 		"karma": "karma start"
