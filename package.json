@@ -9,6 +9,6 @@
 		"karma": "^5.1.1"
 	},
 	"scripts": {
-		"karma": "karma start"
+		"karma": "install -g karma-cli && karma start"
 	}
 }
