@@ -8,6 +8,6 @@ node() {
     stage('Test')   {
 	  karmaExecuteTests script: this,
 		            installCommand: "npm config set strict-ssl false && npm config set @sap:registry https://npm.sap.com && npm install --quiet",
-		  	    runCommand : "npm run karma-cli && npm run karma"
+		  	    runCommand : "npm run karma"
     }
 }
