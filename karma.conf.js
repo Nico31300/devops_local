@@ -10,7 +10,7 @@ module.exports = function (config) {
     //plugins: ['karma-qunit','karma-junit-reporter','karma-chrome-launcher', 'karma-webdriver-launcher','karma-ui5'],
     
     ui5: {
-      url: "https://openui5.hana.ondemand.com"
+      url: "https://sapui5.hana.ondemand.com"
     },
     /*
     files: [
