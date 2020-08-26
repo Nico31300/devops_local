@@ -1,7 +1,7 @@
 module.exports = function (config) {
   
   config.set({
-    frameworks: ['qunit', 'ui5'],    
+    frameworks: ['ui5'],    
     //UI5 framework
     ui5: {
       url: "https://openui5.hana.ondemand.com"
