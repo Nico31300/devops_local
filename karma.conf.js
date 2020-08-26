@@ -7,7 +7,7 @@ module.exports = function(config) {
       url: "https://openui5.hana.ondemand.com"
     },
 
-    browsers: ["Firefox"]
+    browsers: ["Chrome"]
 
   });
 };
